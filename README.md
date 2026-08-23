@@ -59,14 +59,3 @@ I've given an example in the ```filters/``` directory of the policy format.  Not
 - You can customise the filters if you so wish, by editing the ```bin/junos-filtergen.py``` script, to include other terms, add communities or the such (The version I'm running locally, I'm adding an origin community per peer using large communities, which are added using the generated import filter as part of my policy chain).
 
 - You can help by making it better!  Whilst I've been using Juniper for years, I've recently integrated Juniper alongside Mikrotik in my personal network.  If you need a Mikrotik version of this, you can find it at [Edgenative/mikrotik-irrupdater](https://github.com/edgenative/mikrotik-irrupdater)
-
-#### Looking for something more?
-
-If you’re using this tool in production, you might be interested in ispforge — a platform we’re building to take this much further:
-
-- Automated IRR + RPKI handling
-- Centralized BGP policy management
-- Multi-router / multi-site support
-- Peering workflow automation
-
-We’re currently running a closed beta with a small number of ISPs [Closed Beta Signup](https://www.ispforge.com/?utm_source=github)
